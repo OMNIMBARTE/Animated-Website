@@ -1,7 +1,8 @@
 import React, { useRef } from 'react'
 import myself from '../assets/MySelf.jpeg'
-import useGSAP from '@gsap/react'
+import {useGSAP} from '@gsap/react'
 
+gsap.registerPlugin(useGSAP)
 
 const Agence = () => {
 
