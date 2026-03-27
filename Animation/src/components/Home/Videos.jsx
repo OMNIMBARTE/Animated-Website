@@ -1,10 +1,12 @@
 import React from 'react'
+import home_video from '../../../public/Videos/home_video.mp4'
 
 const Videos = () => {
   return (
     
-        <video className='w-full h-full object-cover overflow-hidden' autoPlay loop muted src="https://download-video-ak.vimeocdn.com/v3-1/playback/36bc59b8-6671-4358-abc2-15555fc6ae59/69496b2d?__token__=st=1774586094~exp=1774589694~acl=%2Fv3-1%2Fplayback%2F36bc59b8-6671-4358-abc2-15555fc6ae59%2F69496b2d%2A~hmac=8d337999c78c986e010b86545eddb79608e72bc6f727d81f08e742082f101d23&r=dXMtZWFzdDE%3D"></video>
-    
+      <div className='overflow-hidden'>
+          <video className='object-cover overflow-hidden' autoPlay loop muted src={home_video}></video>
+      </div>
   )
 }
 
