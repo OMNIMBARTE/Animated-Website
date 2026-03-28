@@ -1,5 +1,5 @@
 import React from 'react'
-import home_video from '../../../public/Videos/home_video.mp4'
+import home_video from '../../assets/home_video.mp4'
 
 const Mini_video = () => {
   return (
