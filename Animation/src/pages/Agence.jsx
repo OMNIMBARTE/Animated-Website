@@ -42,7 +42,7 @@ const Agence = () => {
       end: 'top -140%',
       // scrub: true,
       pin: true,
-      markers: true,
+      // markers: true,
       onUpdate:function(elem){
         let imgIdx;
         imgIdx = Math.round(elem.progress * imgarr.length *1.1)
