@@ -14,7 +14,8 @@ const Stairs = (props) => {
     useGSAP(function(){
         const tl = gsap.timeline();
         tl.to(stairparentref.current,{
-            display: 'block'
+            display: 'block',
+            delay:-1
         })
         tl.from('.stair',{
             height:0,
