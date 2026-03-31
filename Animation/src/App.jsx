@@ -1,6 +1,8 @@
 import { Link, Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navigation/Navbar'
+import NavPage from './components/Navigation/FullScreenNav'
 import "remixicon/fonts/remixicon.css";
+
 
 import Home from './pages/Home'
 import Agence from './pages/Agence'
@@ -11,13 +13,14 @@ const App = () => {
   return (
     <div>
 
-    <Navbar />
+    {/* <Navbar /> */}
+    <NavPage />
 
-      <Routes>
+      {/* <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/agence' element={<Agence />} />
         <Route path='/project' element={<Projects />} />
-      </Routes>
+      </Routes> */}
     </div>
   )
 }
